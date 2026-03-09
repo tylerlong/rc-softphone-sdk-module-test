@@ -236,10 +236,10 @@ resolve-pkg-maps@^1.0.0:
   resolved "https://registry.yarnpkg.com/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz#616b3dc2c57056b5588c31cdf4b3d64db133720f"
   integrity sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==
 
-ringcentral-softphone@1.4.0-beta.3:
-  version "1.4.0-beta.3"
-  resolved "https://registry.yarnpkg.com/ringcentral-softphone/-/ringcentral-softphone-1.4.0-beta.3.tgz#0ed164b367822b78a8b60780aacfcb4ec51e1163"
-  integrity sha512-G2rO2kzaux4DJVGkZ7MEj7LINT+ZemUNcutnw0GKbXYopu6EbeCLXEnvEZGwucK4eWC8JMjhdI4EHSKm2h8DwQ==
+ringcentral-softphone@1.4.0-beta.5:
+  version "1.4.0-beta.5"
+  resolved "https://registry.yarnpkg.com/ringcentral-softphone/-/ringcentral-softphone-1.4.0-beta.5.tgz#512fdfc614d1708cc6d9ef1fc70094e6f3f55d22"
+  integrity sha512-6Fv+4UfBhd8Pen5oEhl7QJLXn9xKBE/KgxDT9V1fnoS/C66lH1daJEPIpA/2oE3ZfggBclQWNXljmBq0GhPu5Q==
   dependencies:
     "@evan/opus" "^1.0.3"
     debug "^4.4.3"

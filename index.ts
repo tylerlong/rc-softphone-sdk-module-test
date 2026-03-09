@@ -1,9 +1,4 @@
-import SoftphoneModule from "ringcentral-softphone";
-
-const Softphone =
-  (SoftphoneModule as unknown as { default?: typeof SoftphoneModule })
-    .default ??
-    SoftphoneModule;
+import Softphone from "ringcentral-softphone";
 
 const softphone = new Softphone({
   domain: "",

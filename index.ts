@@ -1,6 +1,6 @@
 import Softphone from "ringcentral-softphone";
 
-const softphone = new Softphone({
+const softphone: Softphone = new Softphone({
   domain: "",
   username: "",
   password: "",

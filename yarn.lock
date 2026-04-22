@@ -165,6 +165,11 @@ buffer@^6.0.3:
     base64-js "^1.3.1"
     ieee754 "^1.2.1"
 
+color-loggers@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/color-loggers/-/color-loggers-0.3.2.tgz#04b12224f4ef3f78c1bdfb238f2cee50f72d7e51"
+  integrity sha512-asfXyY1/9N+Cxt30jb0PFy5tccybuMnWVc9J8EJuYoJVlcsUshn+pt2QuyUB3BWKMXVvEH8jgLrCFs11Am8QZA==
+
 debug@^4.4.3:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.4.3.tgz#c6ae432d9bd9662582fce08709b038c58e9e3d6a"
@@ -236,10 +241,10 @@ resolve-pkg-maps@^1.0.0:
   resolved "https://registry.yarnpkg.com/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz#616b3dc2c57056b5588c31cdf4b3d64db133720f"
   integrity sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==
 
-ringcentral-softphone@1.4.0-beta.5:
-  version "1.4.0-beta.5"
-  resolved "https://registry.yarnpkg.com/ringcentral-softphone/-/ringcentral-softphone-1.4.0-beta.5.tgz#512fdfc614d1708cc6d9ef1fc70094e6f3f55d22"
-  integrity sha512-6Fv+4UfBhd8Pen5oEhl7QJLXn9xKBE/KgxDT9V1fnoS/C66lH1daJEPIpA/2oE3ZfggBclQWNXljmBq0GhPu5Q==
+ringcentral-softphone@^1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/ringcentral-softphone/-/ringcentral-softphone-1.3.5.tgz#62aeeaac3a284f3c00911641690fcbc2900b847a"
+  integrity sha512-1A8FFiO7zt5mkzONO/u4Ar600R7lAhk8vhJ3ownjSe/9AjDWaPJHRNojxEaf7JC6sZfchGUX5KqQdIBFz6rnXw==
   dependencies:
     "@evan/opus" "^1.0.3"
     debug "^4.4.3"
@@ -271,3 +276,10 @@ werift-rtp@^0.8.8:
     aes-js "^3.1.2"
     buffer "^6.0.3"
     mp4box "^0.5.3"
+
+yarn-upgrade-all@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/yarn-upgrade-all/-/yarn-upgrade-all-0.8.1.tgz#facb7fc20f5a9038396f87b52b73c51baadfcea8"
+  integrity sha512-th40yKDBrjfOGtaIfF12+g2DdSxt7jREPcJczYXOVP+kN0tshG5TuP6mV73DyOdwPNH/QxO7ocrqoCk1kqIpUA==
+  dependencies:
+    color-loggers "^0.3.2"

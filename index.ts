@@ -5,6 +5,7 @@ const softphone: Softphone = new Softphone({
   username: "",
   password: "",
   authorizationId: "",
+  outboundProxy: "",
 });
 
 console.log(softphone);
